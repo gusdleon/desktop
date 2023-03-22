@@ -445,7 +445,7 @@ signals:
     void appPasswordRetrieved(QString);
 
     void pushNotificationsReady(const OCC::AccountPtr &account);
-    void pushNotificationsDisabled(OCC::Account *account);
+    void pushNotificationsDisabled(const OCC::AccountPtr &account);
 
     void userStatusChanged();
 
